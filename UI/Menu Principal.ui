@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>764</width>
+    <height>576</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(243, 243, 243);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QSplitter" name="splitter">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>30</y>
+      <width>611</width>
+      <height>511</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+    <widget class="QWidget" name="layoutWidget">
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <widget class="QLabel" name="label">
+        <property name="font">
+         <font>
+          <family>Calibri</family>
+          <pointsize>14</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: #198754;</string>
+        </property>
+        <property name="text">
+         <string>ARBORIZACIONES EIRL</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <spacer name="horizontalSpacer_3">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_2">
+          <property name="font">
+           <font>
+            <pointsize>10</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="pixmap">
+           <pixmap>../Downloads/icons8-user-20.png</pixmap>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_3">
+          <property name="font">
+           <font>
+            <family>Calibri</family>
+            <pointsize>12</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>USUARIO</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QWidget" name="layoutWidget">
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="0" column="4">
+       <widget class="QPushButton" name="pushButton_3">
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius: 8px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+background-color: #E53E3E;
+padding: 24px;
+color: #fff;
+</string>
+        </property>
+        <property name="text">
+         <string>ALMACEN</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>../Downloads/icons8-store-20.png</normaloff>../Downloads/icons8-store-20.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>48</width>
+          <height>48</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="2">
+       <widget class="QPushButton" name="pushButton_8">
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius: 8px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+background-color: #805AD5;
+padding: 24px;
+color: #fff;
+</string>
+        </property>
+        <property name="text">
+         <string>SEGURIDAD</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>../Downloads/icons8-cyber-security-20.png</normaloff>../Downloads/icons8-cyber-security-20.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>48</width>
+          <height>48</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <spacer name="horizontalSpacer">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item row="1" column="0">
+       <widget class="QPushButton" name="pushButton_4">
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius: 8px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+background-color: #D69E2E;
+padding: 24px;
+color: #fff;
+</string>
+        </property>
+        <property name="text">
+         <string>COTIZAR</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>../Downloads/icons8-money-20.png</normaloff>../Downloads/icons8-money-20.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>48</width>
+          <height>48</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="2">
+       <widget class="QPushButton" name="pushButton_2">
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius: 8px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+background-color: #DD6B20;
+padding: 24px;
+color: #fff;
+</string>
+        </property>
+        <property name="text">
+         <string>VENTAS</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>../Downloads/icons8-sales-20.png</normaloff>../Downloads/icons8-sales-20.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>48</width>
+          <height>48</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="2">
+       <widget class="QPushButton" name="pushButton_5">
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius: 8px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+background-color: #319795;
+padding: 24px;
+color: #fff;
+</string>
+        </property>
+        <property name="text">
+         <string>CLIENTES</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>../Downloads/icons8-customers-20 (1).png</normaloff>../Downloads/icons8-customers-20 (1).png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>48</width>
+          <height>48</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="4">
+       <widget class="QPushButton" name="pushButton_6">
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius: 8px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+background-color: #3182CE;
+padding: 24px;
+color: #fff;
+</string>
+        </property>
+        <property name="text">
+         <string>USUARIOS</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>../Downloads/icons8-admin-settings-male-20.png</normaloff>../Downloads/icons8-admin-settings-male-20.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>48</width>
+          <height>48</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0">
+       <widget class="QPushButton" name="pushButton">
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius: 8px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+background-color: #718096;
+padding: 24px;
+color: #fff;
+</string>
+        </property>
+        <property name="text">
+         <string>COMPRAS</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>../Downloads/icons8-bill-20.png</normaloff>../Downloads/icons8-bill-20.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>48</width>
+          <height>48</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="4">
+       <widget class="QPushButton" name="pushButton_9">
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius: 8px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+background-color: #D53F8C;
+padding: 24px;
+color: #fff;
+</string>
+        </property>
+        <property name="text">
+         <string>SOPORTE</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>../Downloads/icons8-support-20.png</normaloff>../Downloads/icons8-support-20.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>48</width>
+          <height>48</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QPushButton" name="pushButton_7">
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius: 8px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+background-color: #00B5D8;
+padding: 24px;
+color: #fff;
+</string>
+        </property>
+        <property name="text">
+         <string>REPORTES</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>../Downloads/icons8-graph-report-20.png</normaloff>../Downloads/icons8-graph-report-20.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>48</width>
+          <height>48</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="3">
+       <spacer name="horizontalSpacer_2">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QWidget" name="layoutWidget">
+     <layout class="QHBoxLayout" name="horizontalLayout_3">
+      <item>
+       <widget class="QPushButton" name="pushButton_10">
+        <property name="font">
+         <font>
+          <family>Calibri</family>
+          <pointsize>12</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(13, 110, 253);
+border-radius: 4px;
+color: #ffffff;
+padding: 10px;</string>
+        </property>
+        <property name="text">
+         <string>INICIAR SESIÓN</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>../Downloads/icons8-logout-20 (1).png</normaloff>../Downloads/icons8-logout-20 (1).png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>32</width>
+          <height>32</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="verticalSpacer">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>40</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_11">
+        <property name="font">
+         <font>
+          <family>Calibri</family>
+          <pointsize>12</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: #dc3545;
+border-radius: 4px;
+color: #ffffff;
+padding: 10px;</string>
+        </property>
+        <property name="text">
+         <string>CERRAR SESIÓN</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>../Downloads/icons8-logout-20.png</normaloff>../Downloads/icons8-logout-20.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>32</width>
+          <height>32</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
