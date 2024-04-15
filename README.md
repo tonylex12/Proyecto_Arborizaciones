@@ -34,6 +34,6 @@ python main.py
 ```
 ## Licencia:
 
-Arborizaciones está licenciado bajo la licencia [MIT](https://choosealicense.com/licenses/mit/)
+Proyecto_Arborizaciones está licenciado bajo la licencia [MIT](https://choosealicense.com/licenses/mit/)
 
 
